@@ -1,7 +1,9 @@
 class Solution:
     def pivotIndex(self, l: list[int]) -> int:
+        a=sum(l)
+        s=0
         for i in range(len(l)):
-            if sum(l[:i])==sum(l[i+1:]) and i<len(l):
+            if s==a-s-l[i]:
                 return i
-        else:
-            return -1
+            s+=l[i]
+        return -1
