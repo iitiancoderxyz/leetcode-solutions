@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int [] a=nums.clone();
