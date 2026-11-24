@@ -17,6 +17,4 @@ class Solution:
 
                 else:
                     return False
-        if len(l)==0:
-            return True
-        return False
+        return len(l) == 0
