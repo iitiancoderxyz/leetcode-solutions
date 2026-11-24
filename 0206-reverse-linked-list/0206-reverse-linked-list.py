@@ -13,5 +13,5 @@ class Solution:
             prev=curr
             curr=temp
         head=prev
-        return prev
+        return head
         
